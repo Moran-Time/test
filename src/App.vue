@@ -1,13 +1,17 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <!-- <echarts/>  -->
     <router-view/>
   </div>
 </template>
-
+<script>
+// import echarts from "./components/login/login"
+export default {
+  components:{
+    // echarts
+  }
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
